@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Gantt de Lotes con Supabase",
+  "description": "Visualizador interactivo de diagramas de Gantt para subprocesos de lotes y gestión de excepciones del calendario laboral con persistencia en Supabase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

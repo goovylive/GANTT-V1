@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom visual pattern for shaded non-working days */
+.pattern-grid {
+  background-image: repeating-linear-gradient(45deg, rgba(148, 163, 184, 0.15) 0px, rgba(148, 163, 184, 0.15) 2px, transparent 2px, transparent 10px);
+}
+
+/* Hide scrollbar on tabs */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Elegant custom scrollbar for horizontal tabs scrolling */
+.scrollbar-elegant::-webkit-scrollbar {
+  height: 6px;
+}
+.scrollbar-elegant::-webkit-scrollbar-track {
+  background: #f1f5f9; /* Slate 100 */
+  border-radius: 9999px;
+}
+.scrollbar-elegant::-webkit-scrollbar-thumb {
+  background: #cbd5e1; /* Slate 300 */
+  border-radius: 9999px;
+}
+.scrollbar-elegant::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8; /* Slate 400 */
+}
+.scrollbar-elegant {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 #f1f5f9;
+}
+
